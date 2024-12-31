@@ -70,9 +70,6 @@ export const deleteFile = async url => {
   }
 };
 
-const portNum = window.location.port;
-export const baseUrl = portNum === "3014" ? import.meta.env.VITE_IMG_URL : "";
-
 // 인스턴스 내보내기
 export const useLogout = () => {
   const dispatch = useDispatch();
